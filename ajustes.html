@@ -1,0 +1,29 @@
+
+<div class="ajustes-container">
+  <h2>Configuración del Comunicador</h2>
+
+  <label>Volumen:
+    <input type="range" id="volumen" min="0" max="1" step="0.1" value="1">
+  </label>
+
+  <label>Velocidad de voz:
+    <input type="range" id="velocidad" min="0.5" max="2" step="0.1" value="1">
+  </label>
+
+  <label>Selecciona una voz:
+    <select id="voz"></select>
+  </label>
+
+  <label>Idioma:
+    <select id="idioma">
+      <option value="es-ES">Español</option>
+      <option value="en-US">Inglés</option>
+    </select>
+  </label>
+
+  <div class="botones">
+    <button onclick="toggleDarkMode()">🌙 Modo Noche</button>
+    <button onclick="toggleContrast()">🌓 Contraste Alto</button>
+    <button onclick="guardarConfiguracion()">Guardar Configuración</button>
+  </div>
+</div>
